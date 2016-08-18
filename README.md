@@ -5,6 +5,5 @@ Examples with Probabilistic Soft Logic (PSL), such as:
 
 more information on PSL: http://psl.umiacs.umd.edu
 
-###### To Start a new Maven project (entity-resolution-example):
-
-`mvn archetype:generate -DgroupId=edu.ucsc.cs.psl.er -DartifactId=entity-resolution-example -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false`
+###### To install PSL with example project:
+`mvn archetype:generate -DarchetypeArtifactId=psl-archetype-example -DarchetypeRepository=https://scm.umiacs.umd.edu/maven/lccd/content/repositories/psl-releases/ -DarchetypeGroupId=edu.ucsc.cs -DarchetypeVersion=1.2.1`
